@@ -7,6 +7,27 @@ module.exports = {
   ],
   theme: {
     extend: {
+
+
+      fontFamily: {
+        custom: ['DMT', 'sans'], 
+        // NationalMedium: "NationalMedium",
+        DMT: "DMT",
+      },
+
+      spacing: {
+        '0': '0',
+        '1': '1.1vw',   
+        '2': '2vw',   
+        '3': '3vw',   
+        '4': '12.2vw',
+        '16':'34.8vw',
+        '80':'80vw',  
+      },
+
+
+
+
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

@@ -8,13 +8,15 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -25,6 +27,19 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+@font-face {
+  font-family: DMT;
+  src: url(../fonts/DMTLLVIPTrial-Regular.ttf)
+}
+
+/* @font-face {
+  font-family: NationalMedium;
+  src: url(../fonts/TestNational-Medium.otf)
+} */
+
+
 
 @layer utilities {
   .text-balance {

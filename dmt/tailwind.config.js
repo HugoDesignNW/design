@@ -10,28 +10,33 @@ module.exports = {
 
 
       fontFamily: {
-        custom: ['DMT', 'sans'], 
-        // NationalMedium: "NationalMedium",
+        custom: ['DMT', 'sans'],
         DMT: "DMT",
+
+        custom: ['Icono', 'sans'],
+        Icono:"Icono",
+      },
+
+      lineHeight: {
+        '1': '86%',
       },
 
       spacing: {
         '0': '0',
-        '1': '1.1vw',   
-        '2': '2vw',   
-        '3': '3vw',   
-        '4': '12.2vw',
-        '16':'34.8vw',
-        '80':'80vw',  
+        '1': '1.1vw',
+        '2': '2vw',
+        '2.5': "10vh",
+        '3': '2.8vw',
+        '4': '10vw',
+        '5': '12.2vw',
+        '6': '27.9vw',
+        '16': '34.8vw',
+        '17':'73.9vh',
+        '80': '80vw',
       },
 
-
-
-
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontSize: {
+        xs: '0.70rem',
       },
     },
   },

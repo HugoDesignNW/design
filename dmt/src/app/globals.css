@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-rgb: 0, 0, 0;
+  scroll-behavior: smooth;
+
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 @media (prefers-color-scheme: light) {
@@ -31,13 +33,22 @@ body {
 
 @font-face {
   font-family: DMT;
-  src: url(../fonts/DMTLLVIPTrial-Regular.ttf)
+  src: url(../fonts/DMTLLVIPTrial-Regular.ttf);
 }
 
-/* @font-face {
-  font-family: NationalMedium;
-  src: url(../fonts/TestNational-Medium.otf)
-} */
+@font-face {
+  font-family: Icono;
+  src: url(../fonts/Iconografica.ttf);
+}
+
+a>div {
+  display: none;
+}
+
+a:hover>div {
+  display: block;
+}
+
 
 
 

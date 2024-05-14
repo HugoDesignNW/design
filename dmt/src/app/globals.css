@@ -41,14 +41,31 @@ body {
   src: url(../fonts/Iconografica.ttf);
 }
 
-a>div {
-  display: none;
+a > div {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  transition: opacity 1s ease-in-out, visibility 1s ease-in-out, height 1s ease-in-out;
 }
 
-a:hover>div {
-  display: block;
+a:hover > div {
+  opacity: 1;
+  visibility: visible;
+  height: auto; /* adjust as needed */
 }
 
+
+.link-animation {
+  background: linear-gradient(90deg, transparent 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  transition: all 0.5s ease-out;
+}
+
+.link-animation:hover {
+  background-position: left;
+  color: black;
+}
 
 
 

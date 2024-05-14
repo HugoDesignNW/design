@@ -35,6 +35,11 @@ module.exports = {
         '80': '80vw',
       },
 
+      colors: {
+        'gray': '#969696',
+        'green': '#9CD203',
+      },
+
       fontSize: {
         xs: '0.70rem',
       },

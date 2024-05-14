@@ -6,7 +6,6 @@ import bugoBanner from "../images/wave2.gif"
 
 import boxtop from "../images/boxtop.svg"
 
-import fsindex from "../images/fsindex.svg"
 import fscard from "../images/fscard2.svg"
 import tmcard from "../images/tmcard.svg"
 import cpcard from "../images/cpcard.svg"

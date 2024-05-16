@@ -27,6 +27,7 @@ module.exports = {
         '2': '2vw',
         '2.5': "10vh",
         '3': '2.8vw',
+        '3.5':'4rem',
         '4': '10vw',
         '5': '12.2vw',
         '6': '27.9vw',
@@ -36,7 +37,7 @@ module.exports = {
       },
 
       colors: {
-        'gray': '#969696',
+        'gray': '#BABABA',
         'green': '#9CD203',
       },
 

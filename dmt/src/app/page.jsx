@@ -4,13 +4,13 @@ import Image from "next/image";
 import Link from 'next/link';
 import bugoBanner from "../images/wave2.gif"
 
-import boxtop from "../images/boxtop.svg"
+import boxtop from "../images/boxtopsoft.svg"
 
-import fscard from "../images/fscard2.svg"
+import fscard from "../images/fscard3.svg"
 import tmcard from "../images/tmcard.svg"
 import cpcard from "../images/cpcard.svg"
 import mecard from "../images/amcard.svg"
-import opcard from "../images/opcard.svg"
+import opcard from "../images/opcard.gif"
 
 import underconstruction from "../images/under.svg"
 
@@ -33,28 +33,25 @@ export default function Home() {
 
           <div>
             <div className='min-h-[50px]'>
-              <p className="text-xs pb-1">hUGO DURAN FERNANDEZ </p>
+              <p className="text-xs pb-3.5">hUGO DURAN FERNANDEZ </p>
 
               <div className="w-[70.5vw]">
-                <a className="text-xs whitespace-pre-wrap hover:bg-black hover:text-white transition-colors duration-500" href="http://www.google.com">
-                  dESIGN + STRATEGY <br />
-                  GRADUATED DESIGNER <br />
-                  BASED IN VANCOUVER, BC. 
-                  <div><Image src={mecard} className="mt-[-33rem] ml-[16.2rem] w-[75vw]" /></div>
+              <a className="text-xs whitespace-pre-wrap hover:bg-black hover:text-white link-animation" href="http://www.google.com">
+                  aBOUT       <span className="font-Icono">w</span>
+                  <div><Image src={mecard} className="mt-[-34rem] ml-[16.2rem] w-[75vw]" /></div>
                 </a>
               </div>
 
             </div>
 
             <p className="text-xs text-gray pt-3">
-            pROFICIENCIES
+            cONTACT
             </p>
 
             <p className="text-xs text-black pb-1">
-            dESIGN<br />
-            pRODUCT dESIGN<br />
-            sPRINTS<br />
-            STRATEGY
+            hDURANFE-AT-SFU.CA<br />
+            lINKEDIN<br />
+            INSTAGRAM
             </p>
 
             <p className="text-xs text-gray">pREVIOUSLY WORKED WITH<br /><span className="text-black">cURIKO</span></p>
@@ -66,27 +63,27 @@ export default function Home() {
 
           <div>
             <div className='min-h-[50px]'>
-              <p className="text-xs pb-1">mOST RELEVANT PROJECTS </p>
+              <p className="text-xs pb-3.5">mOST RELEVANT PROJECTS </p>
 
               <div className="w-[70.5vw]">
                 <a className="text-xs whitespace-pre-wrap hover:bg-black hover:text-white link-animation" href="http://www.google.com">
                   fUORISALONE 2023       <span className="font-Icono">w</span>
-                  <div><Image src={fscard} className="mt-[-31rem] w-[75vw]" /></div>
+                  <div><Image src={fscard} className="mt-[-35rem] w-[75vw]" /></div>
                 </a>
               </div>
 
             </div>
 
-            <p className="text-xs text-gray pt-3">
+            <p className="text-xs text-gray pt-2">
               vISUAL DESIGN AND DIRECTION
               <br /><br />
               fALL 2023
               <br /><br />
-              GRAPHIC DESIGN
+              gRAPHIC DESIGN
               <br />
-              TYPOGRAPHY
+              aRT DIRECTION
               <br />
-              ART DIRECTION
+              sTRATEGY
             </p>
           </div>
 
@@ -95,27 +92,27 @@ export default function Home() {
 
           <div>
             <div className='min-h-[50px]'>
-              <p className="text-xs pb-1 text-gray">--hOVER TO SEE MORE--</p>
+              <p className="text-xs pb-3.5 text-gray">< br/></p>
 
               <div className="w-[70.5vw]">
                 <a className="text-xs pb1 whitespace-pre-wrap hover:bg-black hover:text-white link-animation" href="http://www.google.com">
                   lE TRIENNALE DI MILANO       <span className="font-Icono">w</span>
-                  <div><Image src={tmcard} className="mt-[-31rem] ml-[-18.5vw] w-[75vw]" /></div>
+                  <div><Image src={tmcard} className="mt-[-34rem] ml-[-18.5vw] w-[75vw]" /></div>
                 </a>
               </div>
 
             </div>
 
-            <p className="text-xs text-gray pt-3">
+            <p className="text-xs text-gray pt-2">
               vISUAL DESIGN AND DIRECTION
               <br /><br />
               sPRING 2021
               <br /><br />
-              GRAPHIC DESIGN
+              gRAPHIC DESIGN
               <br />
-              TYPOGRAPHY
+              aRT DIRECTION
               <br />
-              ART DIRECTION
+              sTRATEGY
 
             </p>
           </div>
@@ -124,60 +121,58 @@ export default function Home() {
 
           <div>
             <div className='min-h-[50px]'>
-              <p className="text-xs pb-1 text-gray">cURRENTLY <span className="text-white bg-green">SEEKING</span></p>
+              <p className="text-xs pb-3.5 text-gray">cURRENTLY <span className="text-white bg-green">SEEKING</span></p>
 
               <div className="w-[70.5vw]">
                 <a className="text-xs pb1 whitespace-pre-wrap hover:bg-black hover:text-white link-animation" href="http://www.google.com">
                   cANADA POST       <span className="font-Icono">w</span>
-                  <div><Image src={cpcard} className="mt-[-31rem] ml-[-36.5vw] w-[75vw]" /></div>
+                  <div><Image src={cpcard} className="mt-[-34rem] ml-[-36.5vw] w-[75vw]" /></div>
                 </a>
               </div>
 
             </div>
 
-            <p className="text-gray text-xs pt-3">
+            <p className="text-gray text-xs pt-2">
               sERVICE DESIGN
               <br /><br />
               fALL 2023
               <br /><br />
-              RESEARCH
+              rESEARCH
               <br />
-              SPRINTS
+              sPRINTS
               <br />
-              VISUAL DESIGN
+              vISUAL DESIGN
             </p>
           </div>
 
           <div>
             <div>
-            <div className="w-[70.5vw] pb-2">
+            <div className="w-[70.5vw] pb-[4.8rem]">
                 <a className="text-xs pb1 whitespace-pre-wrap hover:bg-black hover:text-white link-animation" href="http://www.google.com">
                   oTHER PROJECTS     <span className="font-Icono">w</span>
-                  <div><Image src={opcard} className="mt-[-29.4rem] ml-[-49.3rem] w-[75vw]" /></div>
+                  <div><Image src={opcard} className="mt-[-29.3rem] ml-[-49.3rem] w-[75vw]" /></div>
                 </a>
               </div>
 
             </div>
-            <div className='min-h-[50px]'>
+            <div>
               <div className="w-[70.5vw]">
                 <a className="text-xs whitespace-pre-wrap hover:bg-black hover:text-white link-animation" href="http://www.google.com">
                   tHE POLYGON GALLERY      <span className="font-Icono">w</span>
-                  <div><Image src={underconstruction} className="mt-[-31rem] ml-[-55vw] w-[75vw]" /></div>
+                  <div><Image src={underconstruction} className="mt-[-34rem] ml-[-54.9vw] w-[75vw]" /></div>
                 </a>
               </div>
 
             </div>
 
-            <p className="text-gray text-xs pt-[0.7rem]">
+            <p className="text-gray text-xs pt-2">
               pRODUCT DESIGN
               <br /><br />
               sPRING 2022
               <br /><br />
-              RESEARCH
+              rESEARCH
               <br />
-              SPRINTS
-              <br />
-              VISUAL DESIGN
+              vISUAL DESIGN
               <br />
               pRODUCT DESIGN
 
@@ -186,7 +181,7 @@ export default function Home() {
 
         </div>
       </div>
-      <Image src={boxtop} className="w-screen pt-[0.8vh]" />
+      <Image src={boxtop} className="w-screen pt-[0.8rem]" />
 
 
       {/* <div class="flex flex-wrap">

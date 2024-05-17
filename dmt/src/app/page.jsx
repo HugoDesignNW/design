@@ -51,7 +51,8 @@ export default function Home() {
             <p className="text-xs text-black pb-1">
             hDURANFE-AT-SFU.CA<br />
             lINKEDIN<br />
-            INSTAGRAM
+            iNSTAGRAM<br />
+            rEAD.CV
             </p>
 
             <p className="text-xs text-gray">pREVIOUSLY WORKED WITH<br /><span className="text-black">cURIKO</span></p>
